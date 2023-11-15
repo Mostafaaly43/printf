@@ -1,13 +1,7 @@
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
-/*************** main.c*****************/
-#include "myprintf.h"
 
-int main() {
-    _printf("Hello, %cWorld! %s\n", 'C', "printf implementation");
-    return 0;
-}
 /**
  * main - Entry point
  *
