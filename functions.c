@@ -3,7 +3,7 @@
 
 int _printf(const char *format, ...) {
     va_list args;
-    int count = 0; // Move the variable declaration to the beginning
+    int count = 0; /* Move the variable declaration to the beginning */
     va_start(args, format);
 
     while (*format != '\0') {
