@@ -3,9 +3,8 @@
 
 int _printf(const char *format, ...) {
     va_list args;
+    int count = 0; // Move the variable declaration to the beginning
     va_start(args, format);
-
-    int count = 0;
 
     while (*format != '\0') {
         if (*format == '%') {
